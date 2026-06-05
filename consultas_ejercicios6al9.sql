@@ -53,6 +53,29 @@ select Pais, sum(Monto) as TotalVentas
 from Pedidos
 group by Pais;
 
+/*--------ejercicio 9--------*/
+
+create table Productos(
+ID_Producto int auto_increment primary key,
+NombreProducto varchar(100),
+Precio decimal(10,2));
+
+insert into Productos (NombreProducto, Precio) values 
+('Mouse Óptico', 45.00),
+('Teclado Mecánico', 120.00),
+('Monitor 24"', 180.00),
+('Auriculares Gamer', 95.00),
+('Placa de Video', 350.00),
+('Memoria RAM 16GB', 150.00);
+
+select * from Productos where Precio between 100 and 200;
+
+create INDEX idx_precio on Productos(precio);
+
+
+
+
+
 
 
 
