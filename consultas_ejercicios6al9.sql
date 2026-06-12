@@ -73,6 +73,26 @@ select * from Productos where Precio between 100 and 200;
 create INDEX idx_precio on Productos(precio);
 
 
+/*--------ejercicio 10--------*/
+
+DELIMITER //
+
+create procedure CalcularTotalVentas(in p_ID_Cliente int)
+begin
+	select sum(Monto) as TotalVentas
+    from Pedidos
+    where ID_Cliente = p_ID_Cliente;
+end //
+
+DELIMITER ;
+    
+call CalcularTotalVentas(1);
+
+
+
+
+
+
 
 
 
