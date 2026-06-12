@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\ConexionMySQL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4CE5AE2-681F-449C-AF01-3EC7DAA76547}|ConexionMySQL\\ConexionMySQL.csproj|c:\\users\\usuario\\source\\repos\\conexionmysql\\conexionmysql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4CE5AE2-681F-449C-AF01-3EC7DAA76547}|ConexionMySQL\\ConexionMySQL.csproj|solutionrelative:conexionmysql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ConexionMySQL\\ConexionMySQL\\Program.cs",
+              "RelativeDocumentMoniker": "ConexionMySQL\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ConexionMySQL\\ConexionMySQL\\Program.cs",
+              "RelativeToolTip": "ConexionMySQL\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T23:10:51.139Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
